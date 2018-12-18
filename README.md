@@ -1,6 +1,6 @@
-# tlhelp32[![][img_crates]][crates] [![][img_doc]][doc]
+# tlhelp32 [![][img_crates]][crates] [![][img_doc]][doc]
 
-[img_crates]: https://img.shields.io/crates/v/sysinfo.svg
+[img_crates]: https://img.shields.io/crates/v/tlhelp32.svg
 [img_doc]: https://img.shields.io/badge/rust-documentation-blue.svg
 [crates]: https://crates.io/crates/tlhelp32
 [doc]: https://docs.rs/tlhelp32/
