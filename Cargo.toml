@@ -1,6 +1,6 @@
 [package]
 name = "tlhelp32"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Lukas Wirth <lukastw97@gmail.com>"]
 description = "A small wrapper around the tlhelp32 windows API"
 edition = "2018"

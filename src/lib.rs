@@ -3,9 +3,12 @@
 //! returned entries.
 
 #![cfg(windows)]
-#![warn(missing_docs, missing_copy_implementations, missing_debug_implementations)]
-
-#![doc(html_root_url = "https://docs.rs/tlhelp32/1.0.1")]
+#![warn(
+    missing_docs,
+    missing_copy_implementations,
+    missing_debug_implementations
+)]
+#![doc(html_root_url = "https://docs.rs/tlhelp32/1.0.2")]
 
 use widestring::U16CString;
 use winapi::shared::minwindef::{BOOL, HMODULE, LPCVOID};
