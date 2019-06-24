@@ -1,6 +1,6 @@
 [package]
 name = "tlhelp32"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Lukas Wirth <lukastw97@gmail.com>"]
 description = "A small wrapper around the tlhelp32 windows API"
 edition = "2018"
@@ -14,5 +14,5 @@ categories = ["os::windows-apis"]
 widestring = "^0.4"
 
 [dependencies.winapi]
-version = "^0.3.6"
+version = "^0.3"
 features = ["handleapi", "tlhelp32"]

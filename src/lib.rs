@@ -8,7 +8,6 @@
     missing_copy_implementations,
     missing_debug_implementations
 )]
-#![doc(html_root_url = "https://docs.rs/tlhelp32/1.0.2")]
 
 use widestring::U16CString;
 use winapi::shared::minwindef::{BOOL, HMODULE, LPCVOID};
@@ -122,7 +121,7 @@ impl TagTl32 for ProcessEntry {
 }
 
 impl fmt::Debug for ProcessEntry {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.debug_struct("ProcessEntry")
             .field("process_id", &self.process_id)
             .field("cnt_threads", &self.cnt_threads)
@@ -177,7 +176,7 @@ impl TagTl32 for ModuleEntry {
 }
 
 impl fmt::Debug for ModuleEntry {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.debug_struct("ProcessEntry")
             .field("process_id", &self.process_id)
             .field("base_addr", &self.base_addr)
@@ -249,7 +248,7 @@ impl Iterator for HeapList {
 }
 
 impl fmt::Debug for HeapList {
-    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         f.debug_struct("HeapList")
             .field("process_id", &self.process_id)
             .field("heap_id", &self.heap_id)

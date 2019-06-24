@@ -3,7 +3,7 @@
 [img_crates]: https://img.shields.io/crates/v/tlhelp32.svg
 [img_doc]: https://img.shields.io/badge/rust-documentation-blue.svg
 [crates]: https://crates.io/crates/tlhelp32
-[doc]: https://docs.rs/tlhelp32/1.0.1/x86_64-pc-windows-msvc/tlhelp32/
+[doc]: https://docs.rs/tlhelp32/*/x86_64-pc-windows-msvc/tlhelp32/
 
 An abstraction over the windows tlhelp32 api.
 It offers a generic Snapshot struct which acts as an iterator to easily iterate over the
